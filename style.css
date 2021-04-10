@@ -87,7 +87,7 @@ header{
   margin: auto;
 }
 #balance{
-  margin-top: -8rem;
+  margin-top: -6rem;
 }
 
 #balance h2{
@@ -183,6 +183,7 @@ td.expense{
   justify-content: center;
   opacity: 0;
   visibility: hidden;
+  z-index: 999;
 }
 .modal-overlay.active{
   opacity: 1;
@@ -193,6 +194,8 @@ td.expense{
   padding: 2.4rem;
   width: 90%;
   max-width: 500px;
+  z-index: 1;
+  position: relative;
 }
 /* form ============ */
 #form{
@@ -201,7 +204,7 @@ td.expense{
 #form h2{
   margin-top: 0;
 }
-input{
+input, input[type=date]{
   border: none;
   border-radius: 0.2rem;
   padding: 0.8rem;
@@ -231,6 +234,7 @@ footer{
   padding: 4rem 0 2rem;
   color: var(--dark-blue);
   opacity: 0.6;
+  bottom: 0;
 }
 
 @media (min-width: 800px){

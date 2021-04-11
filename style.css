@@ -119,10 +119,10 @@ header{
   background: var(--dark-green);
   color: #fff;
 }
-/* .card.total.negativo{
-  background: var(--total-red);
+.card.total.negativo{
+  background: var(--dark-red);
   color: #fff;
-} */
+}
 #transaction{
   display: block;
   width: 100%;

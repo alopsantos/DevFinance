@@ -36,7 +36,7 @@ const Transaction = {
   incomes() {
     //Somar as entradas
     let income = 0;
-    Transactions.all.forEach(transaction => {
+    Transaction.all.forEach(transaction => {
       if (transaction.amount > 0) {
         income += transaction.amount;
       }
@@ -46,7 +46,7 @@ const Transaction = {
   expenses() {
     //somar as saidas
     let expense = 0;
-    Transactions.all.forEach(transaction => {
+    Transaction.all.forEach(transaction => {
       if (transaction.amount < 0) {
         expense += transaction.amount;
       }
@@ -68,7 +68,7 @@ const DOM = {
     tr.innerHTML = DOM.innerHTMLTransaction(transaction)
     DOM.transactionsContainer.appendChild(tr)
   },
-  
+
   innerHTMLTransaction(transaction) {
     const CSSclass = transaction.amount > 0 ? "income" : "expense"
 
@@ -89,8 +89,8 @@ const DOM = {
     document.getElementById('incomeDisplay').innerHTML = Utils.formatCurrency(Transaction.incomes())
     document.getElementById('expenseDisplay').innerHTML = Utils.formatCurrency(Transaction.expenses())
     document.getElementById('totalDisplay').innerHTML = Utils.formatCurrency(Transaction.total())
-    const CSSclass = Transaction.total < 0 ? "positivo" : "negativo"
-    document.querySelector('#card-total').classList.add(`${CSSclass}`)
+    const CSSclassb = Transaction.total < 0 ? "positivo" : "negativo"
+    document.querySelector('#card-total').classList.add(`${CSSclassb}`)
   }
 }
 

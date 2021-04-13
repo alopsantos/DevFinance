@@ -2,7 +2,7 @@
   <img alt="dev.finances" title="dev.finances" src=".github/logo.svg"  width="220px"/>
 </h1>
 
-<div align="center">
+<div align="left">
     <p>Projeto desenvolvido durante a maratona na Rocketseat usando HTML, CSS e JavaScript</p>
     <p>Dev Finance é aplicação para controle de gastos de simples e organizada.</p>
     <p>Projeto inicial com funções básicas de adicionar e remover transações</p>
@@ -12,22 +12,22 @@
 <br>
 <h3 align="center">Desktop</h3>
 <p align="center">
-  <img alt="dev.finances" src=".github/dev-finance-desktop.png" width="50%">
+  <img alt="dev.finances" src=".github/dev-finance-desktop.png" width="100%">
 </p>
 
 <h3 align="center">Modal</h3>
 <p align="center">
-  <img alt="dev.finances" src=".github/dev-finance-modal.png" width="50%">
+  <img alt="dev.finances" src=".github/dev-finance-modal.png" width="100%">
 </p>
 
 <h3 align="center">Total positivo</h3>
 <p align="center">
-  <img alt="dev.finances" src=".github/dev-finance-positivo.png" width="50%">
+  <img alt="dev.finances" src=".github/dev-finance-positivo.png" width="100%">
 </p>
 
 <h3 align="center">Total Negativo</h3>
 <p align="center">
-  <img alt="dev.finances" src=".github/dev-finance-negativo.png" width="50%">
+  <img alt="dev.finances" src=".github/dev-finance-negativo.png" width="100%">
 </p>
 
 
